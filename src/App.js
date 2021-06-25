@@ -4,7 +4,7 @@ import designResourceDB from "./data";
 
 class App extends React.Component {
   state = {
-    set: "Action"
+    set: "Fonts"
   };
 
   setGenre = (book) => {
@@ -14,8 +14,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello CodeSandbox</h1>
-        <h2>Edit to see some magic happen!</h2>
+        <h1>🔖 Design Resources</h1>
+        <p>
+          This app will give you some of my design resources that i use on a
+          daily basis. You should definitely check them out.
+        </p>
         <div>
           {Object.keys(designResourceDB).map((book) => (
             <button onClick={() => this.setGenre(book)}>{book}</button>
@@ -26,7 +29,10 @@ class App extends React.Component {
         <div>
           <ul>
             {designResourceDB[this.state.set].map((item) => (
-              <li>{item.name}</li>
+              <li>
+                {item.name}
+                <span>{item.review}</span>
+              </li>
             ))}
           </ul>
         </div>

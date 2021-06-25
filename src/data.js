@@ -1,31 +1,31 @@
 const designResourceDB = {
-  Action: [
+  Fonts: [
     {
-      name: "PUBG Mobile",
+      name: "Google Fonts",
       review: "4.9/5"
     },
     {
-      name: "COD: Mobile",
+      name: "Da Fonts",
       review: "4.6/5"
     }
   ],
-  Advanture: [
+  Illustration: [
     {
-      name: "The walking dead",
+      name: "Undraw",
       review: "4.5/5"
     },
     {
-      name: "Nimja Arashi",
+      name: "Iconoscout",
       review: "4.5/5"
     }
   ],
-  Strategy: [
+  Colors: [
     {
-      name: "Clash of clans",
+      name: "Adobe Colors",
       review: "4.6/5"
     },
     {
-      name: "Among us",
+      name: "Coolors",
       review: "3.5/5"
     }
   ]

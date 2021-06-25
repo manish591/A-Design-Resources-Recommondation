@@ -1,4 +1,63 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
+  margin-left: 5vw;
+  margin-top: 10vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefbe9;
+  width: 40vw;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 8vh;
+  color: #183a1d;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+p {
+  margin-bottom: 8vh;
+  color: #183a1d;
+}
+
+button {
+  margin-right: 5vh;
+  padding: 10px 25px;
+  border: none;
+  background-color: #183a1d;
+  color: #fefbe9;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px black;
+  margin-bottom: 5vh;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  margin-top: 8vh;
+}
+
+li {
+  color: #183a1d;
+  font-size: 1.2rem;
+  border: 0.5px solid black;
+  margin-bottom: 5vh;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+span {
+  display: block;
+  margin-top: 1vh;
+  opacity: 0.5;
+  font-size: 1rem;
 }
