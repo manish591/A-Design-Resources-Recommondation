@@ -1,6 +1,6 @@
 import "./styles.css";
 import React from "react";
-import bookDB from "./data";
+import designResourceDB from "./data";
 
 class App extends React.Component {
   state = {
@@ -17,7 +17,7 @@ class App extends React.Component {
         <h1>Hello CodeSandbox</h1>
         <h2>Edit to see some magic happen!</h2>
         <div>
-          {Object.keys(bookDB).map((book) => (
+          {Object.keys(designResourceDB).map((book) => (
             <button onClick={() => this.setGenre(book)}>{book}</button>
           ))}
         </div>
@@ -25,7 +25,7 @@ class App extends React.Component {
         <hr />
         <div>
           <ul>
-            {bookDB[this.state.set].map((item) => (
+            {designResourceDB[this.state.set].map((item) => (
               <li>{item.name}</li>
             ))}
           </ul>

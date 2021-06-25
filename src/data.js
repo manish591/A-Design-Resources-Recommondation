@@ -1,4 +1,4 @@
-const bookDB = {
+const designResourceDB = {
   Action: [
     {
       name: "PUBG Mobile",
@@ -31,4 +31,4 @@ const bookDB = {
   ]
 };
 
-export default bookDB;
+export default designResourceDB;
