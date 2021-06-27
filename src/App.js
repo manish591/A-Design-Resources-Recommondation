@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>🔖 Design Resources</h1>
+        <h1>Design Resources</h1>
         <p>
           This app will give you some of my design resources that i use on a
           daily basis. You should definitely check them out.

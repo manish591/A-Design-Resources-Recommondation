@@ -12,7 +12,7 @@ const designResourceDB = {
   Illustration: [
     {
       name: "Undraw",
-      review: "4.5/5"
+      review: "4.7/5"
     },
     {
       name: "Iconoscout",
@@ -26,7 +26,17 @@ const designResourceDB = {
     },
     {
       name: "Coolors",
-      review: "3.5/5"
+      review: "4/5"
+    }
+  ],
+  Images: [
+    {
+      name: "Unsplace",
+      review: "4.4/5"
+    },
+    {
+      name: "Freepik",
+      review: "4.8/5"
     }
   ]
 };
