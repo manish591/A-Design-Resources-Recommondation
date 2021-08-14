@@ -7,6 +7,10 @@ const designResourceDB = {
     {
       name: "Da Fonts",
       review: "4.6/5"
+    },
+    {
+      name: "Font Squirrel",
+      review: "4.4/5"
     }
   ],
   Illustration: [
@@ -17,6 +21,10 @@ const designResourceDB = {
     {
       name: "Iconoscout",
       review: "4.5/5"
+    },
+    {
+      name: "Draw Kit",
+      review: "4.2/5"
     }
   ],
   Colors: [
@@ -27,6 +35,10 @@ const designResourceDB = {
     {
       name: "Coolors",
       review: "4/5"
+    },
+    {
+      name: "Color Hunt",
+      review: "4.3/5"
     }
   ],
   Images: [
@@ -37,6 +49,10 @@ const designResourceDB = {
     {
       name: "Freepik",
       review: "4.8/5"
+    },
+    {
+      name: "Pexels",
+      review: "4.4/5"
     }
   ]
 };
