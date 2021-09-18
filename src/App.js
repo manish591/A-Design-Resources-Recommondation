@@ -32,6 +32,7 @@ class App extends React.Component {
               <li>
                 {item.name}
                 <span>{item.review}</span>
+                <a href={item.link}>{item.link}</a>
               </li>
             ))}
           </ul>
